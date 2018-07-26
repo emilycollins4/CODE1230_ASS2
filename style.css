@@ -55,10 +55,12 @@ h1 {
 	width: 40%;
 	height:10%;
 	margin:auto;
+	background:#ffffff;
 }
 
 p {
 	font-size:18px;
+	background:#ffffff;
 }
 
 footer {

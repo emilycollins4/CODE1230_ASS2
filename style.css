@@ -36,6 +36,20 @@ body {
   	margin-right:auto;  
 }
 
+#nav a
+{
+  	color:#4A708B;
+  	text-decoration:none;
+  	font-weight:bold;
+  	font-family:Times,Bookman,Old,NewTimesRoman;
+  	font-size:22px;
+ }
+
+#nav a:hover
+{
+  	color:lightblue;
+}
+
 h1 {
 	border-style: solid;
 	border-width: 10px;
@@ -57,23 +71,3 @@ footer {
 	padding: 1%;
 }
 
-.topnav{
-	position:fixed;
-	top:0;
-	background-color: #DDDDDD;
-}
-
-.topnav a {
-	float:left;
-	display:block;
-	color:#001f3f;
-	text-align: center;
-	padding:14px 16px;
-	text-decoration: none;
-	font-size:20px;
-}
-
-.topnav a:hover {
-	background-color: #001f3f;
-	color: #DDDDDD;
-}

@@ -26,6 +26,16 @@ body {
 	background:#ffffff;
 }
 
+#content
+{
+  width:80%;
+  padding-top:0px;
+  padding-bottom:0px;
+  border: 10px solid rgba(79,148,205,0.15);
+  opacity:0.95;
+  width:745px;
+}
+
 #nav
 {
   	float:right;

@@ -51,12 +51,14 @@ body {
 }
 
 h1 {
-	padding: 1%;
-	width: 40%;
-	height:10%;
-	margin:auto;
-	background:#ffffff;
+  	font-family:CourierNew,Courier,Lucidatypewriter,Fixed; 
+  	font-size:30px;
+  	color:#4A708B;
+  	height:75px;
+  	padding-bottom:20px;
+  	width:auto;
 }
+
 
 p {
 	font-size:18px;

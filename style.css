@@ -5,8 +5,6 @@ body {
   	margin:0 auto;
   	padding:0;
   	height:100%;
-	padding-left:75;
-	padding-left: 75;
 }
 
 #nav 
@@ -29,7 +27,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -55,15 +53,11 @@ h1 {
   	padding-bottom:20px;
 	width:auto;
 	float: left;
-	padding-left:75;
 }
 
 h2 {
 	float: left;
 	width: auto;
-	padding-top: 100;
-	padding-left: 75;
-	size: 50%;
 }
 
 

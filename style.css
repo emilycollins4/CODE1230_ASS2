@@ -14,10 +14,7 @@ body {
 
 }
 
-h1
-{
-	float: left;
-}
+
 
 
 #container 
@@ -95,7 +92,11 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
 
 li {
     float: left;
@@ -125,6 +126,7 @@ h1 {
   	padding-bottom:20px;
 
   	width:auto;
+	float: left;
 
 }
 

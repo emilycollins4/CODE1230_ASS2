@@ -21,7 +21,7 @@ body {
 
     	padding-right:0;
 
-  	padding-top: 0; 
+  	padding-top: 100; 
 
   	width:100%; 
 
@@ -38,9 +38,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
     top: 0;
     width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 
 

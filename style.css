@@ -9,7 +9,7 @@ body {
 
 #nav 
     	padding-right:0;
-  	width:100%; 
+  	width: 100%; 
   	margin-left:0;
   	margin-right:0;  
 }
@@ -38,9 +38,6 @@ li a:hover {
     background-color: #111;
 } 
 
-.active {
-    background-color: #FF6347;
-} 
 
 h1 {
   	font-size:30px;

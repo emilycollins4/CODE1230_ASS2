@@ -15,60 +15,6 @@ body {
 }
 
 
-
-
-#container 
-
-{
-
-  	width: 960px;
-
-  	min-width:960px;
-
-  	min-height:100%;
-
-  	position:relative;
-
-  	padding-top: 15px;
-
-  	padding-bottom: 2px;
-
-  	padding-left: 10px;
-
-  	padding-right: 10px;
-
-  	margin-left:auto;
-
-  	margin-right:auto;
-
-  	margin-top:auto;  
-
-  	margin-bottom:auto;
-
-}
-
-
-
-#content
-
-{
-
-  width:80%;
-
-  padding-top:0px;
-
-  padding-bottom:0px;
-
-  border: 10px solid rgba(79,148,205,0.15);
-
-  opacity:0.95;
-
-  width:745px;
-
-}
-
-
-
 #nav
 
 {

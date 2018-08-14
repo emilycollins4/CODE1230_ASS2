@@ -1,23 +1,13 @@
 body {
-
 	text-align:center;
-
 	font-family: 'Dosis', sans-serif;
-
 	font-size:24px;
-
   	margin:0 auto;
-
   	padding:0;
-
   	height:100%;
-
 }
 
-
-#nav
-
-{
+#nav 
     	padding-right:0;
   	padding-top: 100; 
   	width:100%; 
@@ -57,7 +47,6 @@ li a:hover {
 
 
 h1 {
-
   	font-size:30px;
   	color:#FF6347;
   	height:75px;
@@ -69,18 +58,14 @@ h1 {
 h2 {
 	float: left;
 	width: auto;
+}
 
 
 footer {
-
 	position:fixed;
-
 	bottom:0;
-
 	font-size: 14px;
-
 	padding: 1%;
-
 }
 
 p { 
@@ -93,6 +78,4 @@ p {
 	float: left; 
 	padding: 10px; 
 	margin: 0 5px 24px; 
-	font-family: 'Libre Baskerville', 
-	serif; 
 }

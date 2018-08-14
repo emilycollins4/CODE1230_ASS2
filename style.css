@@ -43,10 +43,13 @@ h1 {
   	font-size:30px;
   	color:#FF6347;
 	width:auto;
+	float: left;
+	text-decoration: none;
 }
 
 h1 a {
 	color: #FF6347;
+	font-size:13px;
 }
 
 h2 {

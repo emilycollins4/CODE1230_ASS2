@@ -19,7 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4e4e92;
+    background-color: white;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;

@@ -89,26 +89,29 @@ h1
 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
 li {
-	display: inline;
-        float: left;
+    float: left;
 }
 
-a {
+li a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
-} 
-
-
-#nav a:hover
-
-{
-
-  	color:#FF6347;
-
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+li a:hover {
+    background-color: #FF6347;
+} 
 
 
 h1 {

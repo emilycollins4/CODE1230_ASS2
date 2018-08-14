@@ -9,7 +9,6 @@ body {
 
 #nav 
     	padding-right:0;
-  	padding-top: 100; 
   	width:100%; 
   	margin-left:0;
   	margin-right:0;  
@@ -46,7 +45,6 @@ li a:hover {
 h1 {
   	font-size:30px;
   	color:#FF6347;
-  	height:75px;
 	width:auto;
 }
 

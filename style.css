@@ -55,11 +55,15 @@ h1 {
   	padding-bottom:20px;
 	width:auto;
 	float: left;
+	padding-left:75;
 }
 
 h2 {
 	float: left;
 	width: auto;
+	padding-top: 100;
+	padding-left: 75;
+	size: 50%;
 }
 
 
@@ -68,16 +72,4 @@ footer {
 	bottom:0;
 	font-size: 14px;
 	padding: 1%;
-}
-
-p { 
-	color: #f2f2f2; 
-	background: #ff4a4a; 
-	font-size: 75px; 
-	line-height: 74px; 
-	font-weight: 700; 
-	margin: 0 5px 24px; 
-	float: left; 
-	padding: 10px; 
-	margin: 0 5px 24px; 
 }

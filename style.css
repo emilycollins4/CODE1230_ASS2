@@ -7,7 +7,7 @@ body {
   	height:100%;
 }
 
-#nav 
+#nav {
     	padding-right:0;
   	width: 100%; 
   	margin-left:0;
@@ -43,6 +43,10 @@ h1 {
   	font-size:30px;
   	color:#FF6347;
 	width:auto;
+}
+
+h1 a {
+	color: #FF6347;
 }
 
 h2 {

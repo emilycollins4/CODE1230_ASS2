@@ -36,14 +36,14 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: white;
+    background-color: #;
     color: #FF6347;
 } 
 

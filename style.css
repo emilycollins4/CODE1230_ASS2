@@ -13,7 +13,7 @@ body {
   	margin-left:0;
   	margin-right:0;  
 	position: fixed;
-        z-index: 1030
+        z-index: 10;
 }
 
 ul {
@@ -45,6 +45,12 @@ li a:hover {
     background-color: #FF6347;
     color: white;
 } 
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 
 h1 {

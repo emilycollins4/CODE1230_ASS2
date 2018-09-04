@@ -8,16 +8,6 @@ body {
 	width:100%;
 }
 
-#content
-{
-  width:70%;
-  padding-top:0px;
-  padding-bottom:0px;
-  border: 10px solid black;
-  opacity:0.95;
-	margin: 0 auto;
-	position: relative; 
-}
 
 #nav {
     	padding-right:0;

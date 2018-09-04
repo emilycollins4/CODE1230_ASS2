@@ -5,9 +5,9 @@ body {
   	margin:0 auto;
   	padding:0;
   	height:100%;
-	width: 100%;
+	width: 800px;
         border: 10px solid #1c8352;
-        opacity:0.95;
+        opacity:0.65;
 }
 
 #nav {

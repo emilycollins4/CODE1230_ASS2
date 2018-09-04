@@ -5,9 +5,17 @@ body {
   	margin:0 auto;
   	padding:0;
   	height:100%;
-	width: 1500px;
-        border: 10px solid #1c8352;
-        opacity:0.85;
+	width:100%;
+}
+
+#content
+{
+  width:80%;
+  padding-top:0px;
+  padding-bottom:0px;
+  border: 10px solid #1c8352;
+  opacity:0.95;
+  width:745px;
 }
 
 #nav {

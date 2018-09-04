@@ -12,8 +12,7 @@ body {
   	width: 100%; 
   	margin-left:0;
   	margin-right:0;  
-	position: fixed;
-	z-index: 10;
+	clear: all;
 }
 
 ul {
@@ -33,6 +32,7 @@ li {
 li a {
     display: block;
     color: #FF6347;
+    size: 18px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -42,12 +42,6 @@ li a:hover {
     background-color: #FF6347;
     color: white;
 } 
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
 
 h1 {

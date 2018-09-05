@@ -8,38 +8,37 @@ body {
 	width:100%;
 }
 
-#img {
-	
-}
-
 
 #nav {
-  float:left;
-  clear:left;
-  padding-right:0;
-  padding-top: 50px; 
-  width:20%; 
-  text-align:left; 
-  margin-left:auto;
-  margin-right:auto;  
+    	padding-right:0;
+  	width: 100%; 
+  	margin-left:0;
+  	margin-right:0;  
 }
 
-#nav a
-{
-  color:white;
-  text-decoration:none;
-  font-weight:bold;
-  font-family:Times,Bookman,Old,NewTimesRoman;
-  font-size:40px;
-   display: block;
-    background-color:black;
- }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+}
 
-#nav a:hover
-{
-  background-color: red;
+
+li a {
+    display: block;
+    color: #FF6347;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    size: 35px;
+}
+
+li a:hover {
+    background-color: #FF6347;
     color: white;
-}
+} 
 
 
 h1 {

@@ -25,33 +25,21 @@ body {
   margin-right:auto;  
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    top: 0;
-}
+#nav a
+{
+  color:#1c8352;
+  text-decoration:none;
+  font-weight:bold;
+  font-family:Times,Bookman,Old,NewTimesRoman;
+  font-size:22px;
+   display: block;
+ }
 
-li {
-    float: right;
-	padding-right: 50px; 
-}
-
-li a {
-    display: block;
-    color: #1c8352;
-    size: 18px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #1c8352;
+#nav a:hover
+{
+  background-color: #1c8352;
     color: white;
-} 
+}
 
 
 h1 {

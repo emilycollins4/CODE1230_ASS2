@@ -17,7 +17,7 @@ body {
   float:left;
   clear:left;
   padding-right:0;
-  padding-top: 15px; 
+  padding-top: 50px; 
   width:20%; 
   text-align:left; 
   margin-left:auto;
@@ -26,17 +26,18 @@ body {
 
 #nav a
 {
-  color:#1c8352;
+  color:white;
   text-decoration:none;
   font-weight:bold;
   font-family:Times,Bookman,Old,NewTimesRoman;
-  font-size:22px;
+  font-size:40px;
    display: block;
+    background-color:black;
  }
 
 #nav a:hover
 {
-  background-color: #1c8352;
+  background-color: red;
     color: white;
 }
 

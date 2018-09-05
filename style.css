@@ -8,6 +8,11 @@ body {
 	width:100%;
 }
 
+#img {
+	float: left;
+	clear:all;
+}
+
 
 #nav {
     	padding-right:0;

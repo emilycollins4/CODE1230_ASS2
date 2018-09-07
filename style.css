@@ -69,3 +69,7 @@ nav ul li a::before {
   transform: rotateX(-90deg);
   transform-origin: 50% 0px 0px;
 }
+
+p {
+  font-size:35px;
+}

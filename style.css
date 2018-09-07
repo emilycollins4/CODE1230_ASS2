@@ -1,76 +1,68 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url('http://www.wordstream.com/images/cook-associates-nyc-hiring-trends.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 body {
-	text-align:center;
-	font-family: 'Dosis', sans-serif;
-	font-size:24px;
-  	margin:0 auto;
-  	padding:0;
-  	height:100%;
-	width:100%;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
-
-#nav {
-    	padding-right:0;
-  	width: 100%; 
-  	margin-left:0;
-  	margin-right:0;  
-	display:block;
+nav {
+  background: rgba(233,233,233, 0.8);
+  margin: 3em 2rem;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    top: 0;
-    padding-top:20px;
-	display:block;
+nav ul {
+  list-style: none;
 }
 
-
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
 }
 
-li a:hover {
-    background-color: black;
-    color: white;
-} 
-
-
-h1 {
-  	font-size:30px;
-  	color:#1c8352;
-	width:auto;
-	text-decoration: none;
-	padding-bottom: 20px;
+nav ul li a {
+  display: inline-block;
+  padding: 1rem;
+  color: #000;
+  text-decoration: none;
+  transition: transform 0.3s ease 0s;
+  transform-origin: 50% 0px 0px;
+  transform-style: preserve-3d;
 }
 
-h1 a {
-	color: #1c8352;
-	text-decoration: none;
+nav ul li a.current {
+  color: #7AB1C1;
 }
 
-h2 {
-	width: auto;
-	font-size: 20px;
-	padding-bottom: 20px;
-	padding-right: 100px;
-	padding-left:100px;
+nav ul li a:hover {
+  background: rgba(233,233,233, 0.8);
+  color: #000;
+  transform: rotateX(90deg) translateY(-22px);
 }
 
-
-footer {
-	display: block;
-	bottom:0;
-	font-size: 10px;
-	padding: 1%;
-	padding-left:30px;
-	padding-right:30ps;
+nav ul li a::before {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  padding: 4px 0px;
+  text-align: center;
+  line-height: 50px;
+  background: none repeat scroll 0% 0% #7AB1C1;
+  color: #FFF;
+  content: attr(data-hover);
+  transition: #6363CE 0.3s ease 0s;
+  transform: rotateX(-90deg);
+  transform-origin: 50% 0px 0px;
 }

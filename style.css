@@ -13,6 +13,9 @@ html {
 
 body {
   font-family: "PT Sans Narrow", sans-serif;
+  -webkit-transform: scale(0.67);
+       -moz-transform: scale(0.67);
+            transform: scale(0.67);
 }
 
 nav {
